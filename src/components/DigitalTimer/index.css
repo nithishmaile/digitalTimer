@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+}
+.digital-timer-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 390px;
+  width: 390px;
+  margin-right: 60px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 100px;
+  padding-left: 45px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.time-heading {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.time-status {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.play-icon {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+}
+.bottom-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-specifications {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.plus-minus-buttons {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+.timer-limit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00d9f5;
+  height: 40px;
+  width: 60px;
+  border-radius: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.timer-limit-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-heading {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-bottom: 0px;
+}
